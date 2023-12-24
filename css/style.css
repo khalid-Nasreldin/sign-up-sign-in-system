@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+}
+.wrapper form{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #000;
+}
+.wrapper form input{
+    width: 300px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #111;
+    color: white;
+    border: 1px solid tan;
+    outline: none;
+}
+.wrapper form input::placeholder{
+    color: white;
+}
+.wrapper form select{
+    width: 300px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #111;
+    color: white;
+    border: 1px solid tan;
+    outline: none;
+}
+.wrapper form button{
+    width: 300px;
+    font-size: 16px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    background-color: crimson;
+    color: white;
+    border: 1px solid tan;
+    outline: none;
+    cursor: pointer;
+}
+.wrapper form p a{
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    margin: 0 10px;
+}
+.wrapper .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wrapper .box h1{
+    text-transform: uppercase;
+    color: white;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+.wrapper .box p{
+    color: white;
+    background-color: #000;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.wrapper .box p a{
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    margin: 0 10px;
+}
+
+/* admin */
+.admin{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 25px;
+    background-color: #111;
+}
+.admin h1{
+    text-transform: uppercase;
+    color: white;
+    background-color: #000;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid tan;
+}
+.admin table{
+    min-width: 80vw;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #000;
+    border: 1px solid tan;
+}
+.admin table thead tr th{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid tan;
+}
+.admin table tbody tr td{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #111;
+    padding: 10px;
+}
+.admin table tbody tr td a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+}
